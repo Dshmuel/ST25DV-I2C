@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
 			v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
 			insets
 		}
-		supportFragmentManager.gotoLogin()
+		if (savedInstanceState == null) {
+			supportFragmentManager.gotoLogin()
+		}
 	}
 }
