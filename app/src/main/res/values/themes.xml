@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ST25DVI2C" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.ST25DVI2C" parent="Base.Theme.ST25DVI2C" />
+
+    <style name="LoginButton">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="LoginErrorText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+    <style name="LoginText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

@@ -1,0 +1,1 @@
+package com.dimovsoft.st25dv_i2c.dataclass DatabaseRepository(private val database: RealmDatabase) {	fun checkCredentials(username: String, password: String): Boolean {		if (username.isEmpty() || password.isEmpty()) {			return false		}		val savedPassword = database.getPasswordForUser(username)		return password == savedPassword	}}
