@@ -4,4 +4,8 @@
     <string name="password">Password</string>
     <string name="wrong_credentials_try_again">Wrong credentials. Try again.</string>
     <string name="login">Login</string>
+    <string name="temperature">%.0f°</string>
+    <string name="pressure">%.0f Bar</string>
+    <string name="humidity">%.0f%%</string>
+    <string name="acceleration">%.0f</string>
 </resources>

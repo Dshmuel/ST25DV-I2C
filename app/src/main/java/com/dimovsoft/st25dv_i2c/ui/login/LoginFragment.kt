@@ -1,4 +1,4 @@
-package com.dimovsoft.st25dv_i2c.ui
+package com.dimovsoft.st25dv_i2c.ui.login
 
 import android.os.Bundle
 import android.view.LayoutInflater

@@ -20,5 +20,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "ST25DV-I2C"
-include(":app")
+include(":app", ":SmarTagLib")
  

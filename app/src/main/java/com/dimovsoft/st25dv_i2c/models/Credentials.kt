@@ -1,1 +1,0 @@
-package com.dimovsoft.st25dv_i2c.modelsimport io.realm.kotlin.types.RealmObjectimport io.realm.kotlin.types.annotations.PrimaryKeyimport org.mongodb.kbson.BsonObjectIdimport org.mongodb.kbson.ObjectIdclass Credentials: RealmObject {	@PrimaryKey	var _id: ObjectId = BsonObjectId()	var username: String = ""	var password: String = ""}

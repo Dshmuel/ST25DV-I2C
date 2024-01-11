@@ -1,0 +1,1 @@
+package com.dimovsoft.st25dv_i2c.utilimport java.util.Dateimport kotlin.random.Randomfun ClosedFloatingPointRange<Float>.getRandom(): Float =	Random(Date().time).nextDouble(start.toDouble(), endInclusive.toDouble()).toFloat()

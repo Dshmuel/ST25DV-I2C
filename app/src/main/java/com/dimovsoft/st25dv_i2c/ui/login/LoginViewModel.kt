@@ -1,4 +1,4 @@
-package com.dimovsoft.st25dv_i2c.ui
+package com.dimovsoft.st25dv_i2c.ui.login
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
